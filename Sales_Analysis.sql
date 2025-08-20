@@ -64,3 +64,4 @@ join customer  c on o.CustomerID = c.CustomerID
 where c.PurchaseAmount between 500 and 1500;
 
 select s.SalesmanID, s.SalesmanName, o.OrderID, o.Orderdate, o.Amount from salesman s right join orders o on s.SalesmanID = o.SalesmanID; 
+
